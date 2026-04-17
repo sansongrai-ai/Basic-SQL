@@ -135,3 +135,4 @@ SELECT name, salary,
 DENSE_RANK() OVER (order by salary DESC) AS DENSE
 from emp;
 
+-- 
